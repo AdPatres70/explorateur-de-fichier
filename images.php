@@ -10,7 +10,7 @@ $twig = new Twig_Environment($loader, array(
 $nb_fichier = 0;
     $listefichier = array();
 
-    if($dossier = opendir('test'))
+    if($dossier = opendir('test/images'))
     {
         while(false !== ($fichier = readdir($dossier)))
         {

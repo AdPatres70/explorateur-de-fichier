@@ -9,8 +9,9 @@
 <body>
    <ul>
     {% for fichier in listefichier %}
-        <li>{{ fichier }}</li>
+        <li><a href="./{{ fichier }}.php">{{ fichier }}</a></li>
+        
     {% endfor %}
-</ul>
+    </ul>
 </body>
 </html>
