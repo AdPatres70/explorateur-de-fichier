@@ -23,48 +23,19 @@
     
     
 
-<div class="dossiers d-flex flex-row" >
-        <div class="navigation" >
-        <ul>
-        {% for fichier in listefichier %}
-            <li><a href="./{{ fichier }}.php">{{ fichier }}</a></li>
-            
-        {% endfor %}
-        </ul>
-        </div>
+
+        
+        
         
 
         <div class="fichiers container-fluid p-5" >
-                <div class="row">
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 d-flex flex-wrap">
-                            <div class=" w-50 d-flex  p-md-2 p-5">
-                                <img src="medias/smart-tv.svg" alt="" width="50" height="50">
-                                <div class="pl-5">
-                                    <h3>Bureau</h3>
-                                    
-                                </div>
-                            </div>
-                            <div class=" w-50 d-flex p-md-2 p-5">
-                                <img src="medias/copy-archive.svg" alt="" width="50" height="50">
-                                <div class="pl-5">
-                                    <h3>Documents</h3>
-                                    
-                                </div>
-                            </div>
-                            <div class=" w-50 d-flex p-md-2 p-5">
-                                <img src="medias/download.svg" alt="" width="50" height="50">
-                                <div class="pl-5">
-                                    <h3>Telechargements</h3>
-                                    
-                                </div>
-                            </div>
-                            <div class=" w-50 d-flex p-md-2 p-5">
-                                <img src="medias/gallery.svg" alt="" width="50" height="50">
-                                <div class="pl-5">
-                                    <h3>Images</h3>
-                                    
-                                </div>
-
+            
+        <ul>
+        {% for fichier in listefichier %}
+            <li><a href="?chemin={{chemin}}/{{fichier}}">{{ fichier }}</a></li>
+            
+        {% endfor %}
+        </ul>
                                
     </div>
                         </div>
