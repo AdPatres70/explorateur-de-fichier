@@ -26,16 +26,37 @@ body {
 		}
 
 	}
-	
+
 	.navigation {
 		height: 600px;
 		width: 200px;
 		background-color: $color_1;
 		color: $white;
+
 		.fichiers {
 			height: 600px;
 			width: 1320px;
 			background-color: $color_2;
+			
+		}
+		.liste {
+			list-style-type: none;
+			
+
+			
+		}
+		.elements{
+			padding: 2px;
+			margin: 2px;
+			font-size: 25px;
+			
+			
+			
+			
+			
+			
+			
+	        
 		}
 	}
 }

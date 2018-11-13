@@ -20,7 +20,7 @@
              <a href="#"><img class="img-fluid" src="medias/left-arrow.svg" alt="Precedent" width="60" height="60"></a>
              <a href="#"><img class="img-fluid" src="medias/right-arrow.svg" alt="Suivant" width="60" height="60"></a>
              <a href="#"><img class="img-fluid" src="medias/home.svg" alt="Home" width="60" height="60"></a>
-                <p id="affichedossier" class="text-center" id="p">ldqsuifhusfl</p>
+                <p id="affichedossier" class="text-center" id="p">Dossiers</p>
         
 
     </header>
@@ -29,9 +29,9 @@
     <div class="dossiers d-flex flex-row" >
 
         <div class="navigation" >
-        <ul>
+        <ul class="liste">
         {% for fichier in listefichier %}
-            <li><a href="./{{ fichier }}.php">{{ fichier }}</a></li>
+            <li class="elements"><a href="./{{ fichier }}.php">{{ fichier }}</a></li>
             
         {% endfor %}
         </ul>

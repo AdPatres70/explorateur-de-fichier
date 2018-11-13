@@ -23,5 +23,11 @@ body {
       height: 600px;
       width: 1320px;
       background-color: #ededed; }
+    body .navigation .liste {
+      list-style-type: none; }
+    body .navigation .elements {
+      padding: 2px;
+      margin: 2px;
+      font-size: 25px; }
 
 /*# sourceMappingURL=style.css.map */
