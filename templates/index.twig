@@ -29,22 +29,13 @@
     <div class="dossiers d-flex flex-row" >
 
         <div class="navigation" >
-            <p>.Accés Rapide</p>
-            <p>.Bureau</p>
-            <p>.Documents</p>
-            <p>.Téléchargements</p>
-            <p>.Images</p>
-            <p>.One drive</p>
-            <p>.Ce pc</p>
-            <p>.Documents</p>
-            <p>.Images</p>
-            <p>.Musique</p>
-            <p>.Téléchargements</p>
-            <p>.Vidéos</p>
-            <p>.Disque Local (C:)</p>
-        
+        <ul>
+        {% for fichier in listefichier %}
+            <li><a href="./{{ fichier }}.php">{{ fichier }}</a></li>
+            
+        {% endfor %}
+        </ul>
         </div>
-
         
 
         <div class="fichiers container-fluid p-5" >
