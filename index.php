@@ -32,10 +32,10 @@ $nb_fichier = 0;
 $template = $twig->load('index.twig');
 
 
-//On assigne les varibles devant être affiché au fichier
+//On assigne les variables devant être affiché au fichier
 echo $template->render(
     array(
-        'prenom' => 'boussad',
+        
         "listefichier"=>$listefichier
     )
 ); 
