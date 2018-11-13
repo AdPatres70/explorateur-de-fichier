@@ -1,0 +1,50 @@
+
+$color_1: #3e3e3e;
+$white: white;
+$color_2: #ededed;
+$font_0: Segoe UI;
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: $font_0;
+	
+	header {
+		background-color: $color_1;
+		height: 250px;
+		width: auto;
+		.afficheur {
+			height: 250px;
+		}
+		h1 {
+			font-size: 70px;
+			color: $white;
+		}	
+		#affichedossier {
+				font-size: 35px;
+				color: $white;
+		}
+
+	}
+	
+	.navigation {
+		height: 600px;
+		width: 200px;
+		background-color: $color_1;
+		color: $white;
+		.fichiers {
+			height: 600px;
+			width: 1320px;
+			background-color: $color_2;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+

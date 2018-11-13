@@ -22,6 +22,6 @@ $nb_fichier = 0;
         }  
         closedir($dossier);
     }
-$template = $twig->load('explorateur.twig');
+$template = $twig->load('index.twig');
 echo $template->render(array("listefichier"=>$listefichier)); 
  ?>

@@ -1,41 +1,27 @@
 body {
-    margin:0;
-    padding: 0;
-    font-family: "Segoe UI";
-
-}
-
-.afficheur{
-    height:250px;
-}
-
-
-
-header{
-    background-color:#3e3e3e;
+  margin: 0;
+  padding: 0;
+  font-family: Segoe UI; }
+  body header {
+    background-color: #3e3e3e;
     height: 250px;
-    width: auto;
-}
-
-h1{
-    font-size:70px;
-    color:white;
-}
-
-#affichedossier{
-    font-size:35px;
-    color:white;
-}
-
-.navigation{
+    width: auto; }
+    body header .afficheur {
+      height: 250px; }
+    body header h1 {
+      font-size: 70px;
+      color: white; }
+    body header #affichedossier {
+      font-size: 35px;
+      color: white; }
+  body .navigation {
     height: 600px;
     width: 200px;
     background-color: #3e3e3e;
-    color:white;
-}
+    color: white; }
+    body .navigation .fichiers {
+      height: 600px;
+      width: 1320px;
+      background-color: #ededed; }
 
-.fichiers{
-    height:600px;
-    width:1320px;
-    background-color:#ededed;
-}
+/*# sourceMappingURL=style.css.map */
